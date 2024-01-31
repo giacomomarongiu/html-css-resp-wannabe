@@ -266,11 +266,10 @@ img {
     }
 
     .why-us .col-right {
-        justify-content: center;
         width: 100%;
         margin: auto;
         text-align: start;
         padding: 2rem;
-        border: none;
+        font-size: medium;
     }
 }
