@@ -154,52 +154,26 @@ img {
     }
 
     .lessons .col img {
-        height: 180px;
         margin-bottom: 0.5rem;
     }
 
     .lessons .col {
         font-size: small;
-        width: 100%;
-        padding: 2.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     .steps {
         margin-top: 0.5rem;
     }
 
-    .steps .col {
-        width: 80%;
-        padding: 2.5rem;
-        padding-bottom: 0;
-        font-size: small;
-    }
-
-    .steps .col img {
-        height: 140px;
-        margin: 0;
-    }
-
     .why-us {
         font-size: small;
     }
 
-    .why-us img {
-        height: 70%%;
-    }
-
-
-    .why-us .col-left {
-        width: 35%;
-        margin-top: 0;
-
-    }
-
     .why-us .col-right {
-        width: 65%;
-        margin: auto;
         text-align: start;
-        padding: 2rem;
+        padding-top: 2rem;
     }
 
 
@@ -275,6 +249,7 @@ img {
 }
 
 @media screen and (min-width:769px) {
-    main{
-        width:fit-content;    }
+    main {
+        width: fit-content;
+    }
 }
