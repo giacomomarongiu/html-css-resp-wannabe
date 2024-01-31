@@ -273,3 +273,8 @@ img {
         font-size: medium;
     }
 }
+
+@media screen and (min-width:769px) {
+    main{
+        width:fit-content;    }
+}
