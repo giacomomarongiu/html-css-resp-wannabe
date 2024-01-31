@@ -129,6 +129,9 @@ img {
  ************************************************/
 
  @media screen and (max-width: 768px){
+    h2 {
+        margin-bottom: .5rem;
+    }
     .container{
         width: 700px;
     }
@@ -142,9 +145,27 @@ img {
     }
     .steps .col {
         width: 100%;
-        padding:2rem;
+        padding: 2rem;
         border-bottom: 3px solid rgb(24, 6, 97);
     }
+    .steps .col img{
+        margin-top: 2rem;
+    }
+    .why-us .col-left {
+        width: 50%;
+        margin: auto;
+        padding-bottom: 3rem;
+ 
+    }
+    .why-us .col-right {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        padding: 2rem;
+        border: 3px solid pink;
+    }
+    
+
  }
 
  @media screen and (max) {
