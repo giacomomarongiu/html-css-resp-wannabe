@@ -143,6 +143,7 @@ img {
         padding:2rem;
         border-bottom: 3px solid pink;
     }
+
     .steps .col {
         width: 100%;
         padding: 2rem;
@@ -168,6 +169,41 @@ img {
 
  }
 
- @media screen and (max) {
-    
+ @media screen and (max-width:468px) {
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        width: 430px;
+    }
+    .lessons .col {
+        width: 100%;
+        padding:1rem;
+        border-bottom: 2px solid pink;
+    }
+
+    .steps .col {
+        width: 100%;
+        padding: 1rem;
+        border-bottom: 2px solid rgb(24, 6, 97);
+    }
+    .steps .col img{
+        width: 70%;
+        margin-top: 1rem;
+    }
+    .why-us .col-left {
+        width: 0;
+        padding: 0;
+        margin: 0;
+ 
+    }
+    .why-us .col-right {
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 2rem;
+        border: none;
+    }
  }
